@@ -9,7 +9,7 @@ header {
 	padding: 2rem 1rem;
 	max-width: 800px;
 	width: 100%;
-	margin: 10;
+	margin: 50;
     font-family: "Poppins";
     color: #ff5722;
 }
@@ -35,7 +35,7 @@ table.list{
 }
 
 td{
-    border: 1px solid #303841;
+    border: 1px solid #efeff0;
     text-align: left;
     padding: 8px 15px;
     color: #303841;
@@ -50,8 +50,9 @@ input[type="text"],input[type="number"]{
     padding:12px 20px;
     margin:8px 0;
     display: inline-block;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid #f6f7fa;
     border-radius: 15px;
+    background: #f6f7fa;
     font-family: "Poppins";
     color: #303841;
 }
