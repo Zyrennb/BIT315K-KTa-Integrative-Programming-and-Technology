@@ -25,7 +25,7 @@ table{
     width: 80%;
     margin: 40px auto;
     border-radius: 4px;
-    background: rgb(255, 255, 255);
+    background: #a6acaf;
 }
 
 table.list{
@@ -50,9 +50,9 @@ input[type="text"],input[type="number"]{
     padding:12px 20px;
     margin:8px 0;
     display: inline-block;
-    border: 1px solid #f6f7fa;
+    border: 1px solid #ffffff;
     border-radius: 15px;
-    background: #f6f7fa;
+    background: #ffffff;
     font-family: "Poppins";
     color: #303841;
 }
