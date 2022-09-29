@@ -6,12 +6,10 @@ interactivity, and PHP/MySQL for the backend.
 */
 
 header {
-	padding: 2rem 1rem;
-	max-width: 800px;
-	width: 100%;
-	margin: 50;
+	
     font-family: "Poppins";
-    color: #ff5722;
+    color: black;
+    text-align: center;
 }
 
 body{
