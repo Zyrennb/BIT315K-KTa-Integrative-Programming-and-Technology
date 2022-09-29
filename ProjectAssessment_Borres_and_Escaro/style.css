@@ -9,7 +9,7 @@ header {
 	padding: 2rem 1rem;
 	max-width: 800px;
 	width: 100%;
-	margin: 0;
+	margin: 3;
     font-family: "Poppins";
     color: #ff5722;
 }
@@ -53,7 +53,7 @@ input[type="text"],input[type="number"]{
 }
 
 input[type="submit"],input[type="reset"]{
-    background: rgb(255, 255, 255);
+    background: #00adb5;
     padding:6px 12px;
     margin:15px 0 10px;
     display: inline-block;
@@ -74,7 +74,7 @@ input[type="reset"]:hover{
 }
 
 button{
-    background: #eee;
+    background: #00adb5;
     padding:6px 12px;
     margin:15px 0 10px;
     display: inline-block;
