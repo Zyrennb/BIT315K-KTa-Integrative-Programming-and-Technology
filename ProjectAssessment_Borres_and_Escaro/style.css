@@ -1,3 +1,18 @@
+/* @Title: Project Assessment (CRUD)
+@Description: Create a simple CRUD for your project. Use HTML for the structure, CSS for some UI design (just simple ones), Javascript for 
+interactivity, and PHP/MySQL for the backend.
+@Author: Zyrenn Rose Borres and Darwin Escaro (BSIT)
+@Date Created: September 27, 2022 
+*/
+
+header {
+	padding: 2rem 1rem;
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+    font-family: "Poppins";
+}
+
 body{
     background-image: url('background.jpg');
     background-repeat: no-repeat;
@@ -52,7 +67,7 @@ input[type="submit"]:hover{
 }
 
 input[type="reset"]:hover{
-    background: #4b99d8;
+    background: #ffffff;
 }
 
 button{
@@ -68,5 +83,19 @@ button{
 }
 
 button:hover{
-    background:#4b99d8 ;
+    background:#ffffff ;
+}
+
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
 }
