@@ -14,7 +14,7 @@ header {
 }
 
 body{
-    background-image: url('background.jpg');
+    background-color: rgb(236, 232, 232);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -23,7 +23,7 @@ body{
 table{
     width: 80%;
     margin: 40px auto;
-    background: rgb(124,154,167);
+    background: rgb(255, 255, 255);
 }
 
 table.list{
@@ -32,13 +32,13 @@ table.list{
 }
 
 td{
-    border: 1px solid rgb(204,200,200);
+    border: 1px solid rgb(255, 255, 255);
     text-align: left;
     padding: 8px 15px;
 }
 
 tr:nth-child(even), table.list thread> tr{
-    background-color: rgb(204,200,200);
+    background-color: rgb(255, 255, 255);
 }
 
 input[type="text"],input[type="number"]{
@@ -46,13 +46,13 @@ input[type="text"],input[type="number"]{
     padding:12px 20px;
     margin:8px 0;
     display: inline-block;
-    border: 1px solid rgb(165,161,161);
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 4px;
     font-family: "Poppins";
 }
 
 input[type="submit"],input[type="reset"]{
-    background: #eee;
+    background: rgb(255, 255, 255);
     padding:6px 12px;
     margin:15px 0 10px;
     display: inline-block;
@@ -65,7 +65,7 @@ input[type="submit"],input[type="reset"]{
 }
 
 input[type="submit"]:hover{
-    background: #4b99d8;
+    background: #ffffff;
 }
 
 input[type="reset"]:hover{
@@ -90,7 +90,7 @@ button:hover{
 }
 
 footer{
-    background: #111;
+    background: rgb(161, 161, 161);
     padding: 15px 23px;
     color: #fff;
     text-align: center;
