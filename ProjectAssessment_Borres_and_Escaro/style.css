@@ -9,8 +9,9 @@ header {
 	padding: 2rem 1rem;
 	max-width: 800px;
 	width: 100%;
-	margin: 0 auto;
+	margin: 0;
     font-family: "Poppins";
+    color: #ff5722;
 }
 
 body{
@@ -65,11 +66,11 @@ input[type="submit"],input[type="reset"]{
 }
 
 input[type="submit"]:hover{
-    background: #ffffff;
+    background: #00adb5;
 }
 
 input[type="reset"]:hover{
-    background: #ffffff;
+    background: #00adb5;
 }
 
 button{
