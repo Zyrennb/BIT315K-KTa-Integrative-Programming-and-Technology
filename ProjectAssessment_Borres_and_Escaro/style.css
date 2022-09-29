@@ -48,6 +48,7 @@ input[type="text"],input[type="number"]{
     display: inline-block;
     border: 1px solid rgb(165,161,161);
     border-radius: 4px;
+    font-family: "Poppins";
 }
 
 input[type="submit"],input[type="reset"]{
@@ -60,6 +61,7 @@ input[type="submit"],input[type="reset"]{
     font-size: 1rem;
     cursor: pointer;
     outline: none;
+    font-family: "Didact Gothic";
 }
 
 input[type="submit"]:hover{
@@ -80,6 +82,7 @@ button{
     font-size: 1rem;
     cursor: pointer;
     outline: none;
+    
 }
 
 button:hover{
@@ -91,6 +94,7 @@ footer{
     padding: 15px 23px;
     color: #fff;
     text-align: center;
+    font-family: "Anton";
 }
 footer span a{
     color: crimson;
