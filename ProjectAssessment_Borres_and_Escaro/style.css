@@ -15,7 +15,7 @@ header {
 }
 
 body{
-    background-color: rgb(236, 232, 232);
+    background-color: #ffffff;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -31,12 +31,14 @@ table{
 table.list{
     text-align: center;
     width: 100%;
+    color: #303841;
 }
 
 td{
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid #303841;
     text-align: left;
     padding: 8px 15px;
+    color: #303841;
 }
 
 tr:nth-child(even), table.list thread> tr{
@@ -49,7 +51,7 @@ input[type="text"],input[type="number"]{
     margin:8px 0;
     display: inline-block;
     border: 1px solid rgb(255, 255, 255);
-    border-radius: 4px;
+    border-radius: 15px;
     font-family: "Poppins";
     color: #303841;
 }
