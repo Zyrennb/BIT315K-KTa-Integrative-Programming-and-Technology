@@ -6,14 +6,14 @@ interactivity, and PHP/MySQL for the backend.
 */
 
 header {
-	
     font-family: "Poppins";
-    color: black;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: #ff5722;
     text-align: center;
 }
 
 body{
-    background-color: #ffffff;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -22,8 +22,10 @@ body{
 table{
     width: 80%;
     margin: 40px auto;
-    border-radius: 4px;
-    background: #a6acaf;
+    border-radius: 20px;
+    background: #f7f8fa;
+    font-family: "Poppins";
+    font-weight: bold;
 }
 
 table.list{
@@ -33,14 +35,14 @@ table.list{
 }
 
 td{
-    border: 1px solid #efeff0;
     text-align: left;
     padding: 8px 15px;
     color: #303841;
+    font-family: "Poppins,";
 }
 
 tr:nth-child(even), table.list thread> tr{
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
 }
 
 input[type="text"],input[type="number"]{
@@ -61,19 +63,25 @@ input[type="submit"],input[type="reset"]{
     margin:15px 0 10px;
     display: inline-block;
     border: none;
-    border-radius: 30px;
+    border-radius: 20px;
     font-size: 1rem;
     cursor: pointer;
     outline: none;
-    font-family: "Didact Gothic";
+    font-family: "Poppins";
+    font-weight: bold;
+    color: white;
 }
 
 input[type="submit"]:hover{
     background: #00adb5;
+    font-family: "Poppins";
+    font-weight: bold;
 }
 
 input[type="reset"]:hover{
     background: #00adb5;
+    font-family: "Poppins";
+    font-weight: bold;
 }
 
 button{
@@ -86,7 +94,9 @@ button{
     font-size: 1rem;
     cursor: pointer;
     outline: none;
-    
+    font-family: "Poppins";
+    font-weight: bold;
+    color: #ffffff;
 }
 
 button:hover{
@@ -98,7 +108,7 @@ footer{
     padding: 15px 23px;
     color: #fff;
     text-align: center;
-    font-family: "Anton";
+    font-family: "Poppins";
 }
 footer span a{
     color: crimson;
