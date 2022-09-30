@@ -26,12 +26,14 @@ table{
     background: #f7f8fa;
     font-family: "Poppins";
     font-weight: bold;
+    color: #303841;
 }
 
 table.list{
     text-align: center;
     width: 100%;
     color: #303841;
+    font-family: "Poppins";
 }
 
 td{
@@ -43,6 +45,7 @@ td{
 
 tr:nth-child(even), table.list thread> tr{
     background-color: #ffffff;
+    font-family: "Poppins,";
 }
 
 input[type="text"],input[type="number"]{
@@ -105,6 +108,7 @@ button:hover{
 
 footer{
     background: #303841;
+    border-radius: 15px;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
